@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drawers</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="left-container"></div>
+    <div class="right-container">
+      <div class="right-sidebar">
+        <form>
+          <div class="title">
+            <h3>New Project 
+              <i class="fa-solid fa-x"></i>
+            </h3>
+            <p>
+              Get started by filling in the information below to create your new project.
+            </p>
+          </div>
+          <div class="project">
+            <label for="project1">Project name</label>
+            <input type="text" name="project" id="project1">
+          </div>
+          <div class="project describe">
+            <label for="text-area">Description</label>
+            <textarea rows="4" cols="2"></textarea>
+          </div>
+          <div class="team">
+            <h3>Team Members</h3>
+            <div class="pictures">
+              <div class="pic">
+                <img src="./img/aiony-haust-3TLl_97HNJo-unsplash.jpg" >
+              </div>
+              <div class="pic">
+                <img src="./img/albert-dera-ILip77SbmOE-unsplash.jpg" >
+              </div>
+              <div class="pic">
+                <img src="./img/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" >
+              </div>
+              <div class="pic">
+                <img src="./img/jurica-koletic-7YVZYZeITc8-unsplash.jpg" >
+              </div>
+              <div class="pic">
+                <img src="./img/stefan-stefancik-QXevDflbl8A-unsplash.jpg" >
+              </div>
+              <div class="pic pic-icon">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <div class="radio-privacy">
+            <h3>Privacy</h3>
+            <div class="public">
+              <input type="radio" name="private" id="public">
+              <label for="public">Public access</label>
+              <p>
+                Everyone with the link will see this project.
+              </p>
+            </div>
+            <div class="public">
+              <input type="radio" name="private" id="private">
+              <label for="private">Public access</label>
+              <p>
+                Only members of this project would be able to access.
+              </p>
+            </div>
+            <div class="public public1">
+              <input type="radio" name="private" id="private1">
+              <label for="private1">Private to you</label>
+              <p>
+                You are the only one able to access this project.
+              </p>
+            </div>
+          </div>
+          <div class="copy-link">
+            <a href="#">
+              <i class="fa-solid fa-link"></i>
+              Copy link
+            </a>
+            <a href="#" class="learn">
+              <i class="fa-solid fa-circle-question"></i>
+              Learn more about sharing
+            </a>
+          </div>
+          <div class="btn-container">
+            <button class="btn1">Cancel</button>
+            <button class="btn2">Save</button>
+          </div>
+        </form>
+        
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
